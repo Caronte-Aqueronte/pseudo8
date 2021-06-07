@@ -1,0 +1,14 @@
+Algoritmo pseudo8
+	Definir random Como Entero
+	Definir bandera Como Caracter
+	bandera = "N"
+	Mientras bandera <> "S" y bandera <> "s" Hacer
+		random = azar(100001)
+		Mientras random % 5 <> 0 Hacer
+			random = azar(100001)
+		Fin Mientras
+		Escribir random
+		Escribir "pulse S para salir"
+		Leer bandera
+	Fin Mientras
+FinAlgoritmo
